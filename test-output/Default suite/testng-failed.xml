@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScenarios.ValidationCommandDemo">
+      <class name="testScenarios.CrossBrowserTesting_DropdownDemo">
         <methods>
           <include name="f"/>
+          <include name="browserLaunch"/>
         </methods>
-      </class> <!-- testScenarios.ValidationCommandDemo -->
+      </class> <!-- testScenarios.CrossBrowserTesting_DropdownDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
