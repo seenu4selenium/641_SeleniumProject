@@ -26,5 +26,7 @@ public class FB_login {
 	  //Close the current window
 	  //driver.close();
 	  driver.quit();
+	  System.out.println("adgsdfhgfs");
+	  
   }
 }
