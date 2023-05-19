@@ -16,7 +16,7 @@ public class CloseVsQuit {
 		driver = new EdgeDriver();
 		driver.get("https://demoqa.com/browser-windows");
 		// Maximize the window
-		driver.manage().window().maximize();		
+		driver.manage().window().maximize();	
 		driver.findElement(By.id("windowButton")).click();		
 		Thread.sleep(5000);
 		//Close the browser

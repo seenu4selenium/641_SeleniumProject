@@ -24,7 +24,7 @@ public class GetText_Demo {
 
 	@Test
 	public void tc_02_fb() throws Exception {
-		driver = new EdgeDriver();
+		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		System.out.println(driver.findElement(By.className("_8eso")).getText());
 	}
