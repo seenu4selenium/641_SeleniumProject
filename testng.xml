@@ -3,11 +3,9 @@
 <suite name="MySuite">
 	<test thread-count="5" name="MyTestResults">
 		<classes>
-			<class name="testScenarios.NavigationalMethods" />
-			<class name="testScenarios.ValidationCommandDemo" />
+			<class name="testScenarios.NavigationalMethods" />			
 			<class name="testScenarios.NewTestDemo" />
-			<class name="testScenarios.FB_login" />
-			<class name="testScenarios.PHPtravels" />
+			<class name="testScenarios.FB_login" />			
 			<class name="testScenarios.OrangeHRM" />
 			<class name="testScenarios.GetText_Demo" />			
 		</classes>
